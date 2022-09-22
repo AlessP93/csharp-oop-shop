@@ -1,23 +1,25 @@
 ﻿
 public class Acqua : Prodotto   //Acqua(massimo 1.5L)
 {
-    public float Litri { get; set; } = 0;
-    public int Ph { get; set; } = 0;
+    public float Litri { get; set; }
+    public float Ph { get; set; } 
     public string Sorgente { get; set; }
 
     //metodi 
-    public void Bevi()
+    public void Bevi(float litriDaBere) 
     {
-        
+        //Litri -= litriDaBere;
+        Litri = Litri - (float)litriDaBere;
     }
 
-    public void Riempi()
+    public void Riempi(float litriDaAggiungere)
     {
-
+        //Litri += litriDaAggiungere;
+        Litri = Litri + (float)litriDaAggiungere;
     }
 
-    public void Svuota()
+    public void Svuota(float svuotaBottiglia)
     {
-
+        svuotaBottiglia = Litri - Litri;
     }
 }
