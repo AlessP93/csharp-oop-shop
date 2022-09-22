@@ -99,16 +99,9 @@
 //    }
 //}
 
-// ESERCIZIO CON CLASSE ASTRATTA
 
-//Acqua(massimo 1.5L)
-//Sacchetto di Frutta a pezzi (al massimo puo contenere 5 pezzi di frutta)
-//Elettrodomestico
-//Cibo in Scatola (al massimo può contenere 300g di peso su una scatola)
-//public abstract Shop
-//{
-//    public string Name { get; set; }
-//}
+
+// ESERCIZIO CON CLASSE ASTRATTA
 
 public class Prodotto
 {
@@ -117,14 +110,5 @@ public class Prodotto
     public string Description { get; set; }
     public string Price { get; set; }
     public string Iva { get; set; }
-
-}
-public class Water
-{
-    public float MaxLitres { get; set; } = 0;
-}
-
-public class Bag
-{
 
 }
