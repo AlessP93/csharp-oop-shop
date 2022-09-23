@@ -1,6 +1,6 @@
 ﻿
 public class Cibo : Prodotto    //Cibo in Scatola (max 300g di peso)
 {
-    public int Quantità { get; set; } = 0;  
+    public int Quantità { get; set; } = 0;
 
 }
